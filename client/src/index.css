@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+ :root {
+   --primary-color: #684c31;
+   --scondary-color: #af8b5e;
+   --white-color: #fff;
+    --black-color: #000000;
+ }
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   outline: none;
+ }
+
+ body {
+   scroll-behavior: smooth;
+   font-family: "Cairo", sans-serif;
+   direction: rtl;
+   background-color: var(--white-color);
+ }
+
+ .container {
+   width: 80%;
+   margin: auto;
+ }
+ .btn-edit,
+ .btn-delete {
+   padding: 8px 14px;
+   font-size: 13px;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   transition: 0.3s;
+ }
+     .btn-edit {
+       background: #af8b5e;
+       color: white;
+       margin-right: 6px;
+     }
+      .btn-edit:hover {
+         background: #c29a71;
+       }
+     
+  
+     .btn-delete {
+       background: #e74c3c;
+       margin-right: 20px;
+       color: white;
+     }
+             btn-delete:hover {
+         background: #c0392b;
+       }
+     

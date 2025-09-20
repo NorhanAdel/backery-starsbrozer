@@ -1,0 +1,19 @@
+.best-sellers {
+  padding: 40px;
+  background-color: #f8f8f8;
+  text-align: center;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+
+  
+  }
+}

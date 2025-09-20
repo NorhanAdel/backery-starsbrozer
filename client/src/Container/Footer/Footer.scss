@@ -1,0 +1,59 @@
+.footer {
+  background-color: var(--scondary-color);
+  color: var(--white-color);
+  padding: 2rem 0;
+  font-family: "Cairo", sans-serif;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  &__section {
+    flex: 1;
+
+    h4 {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+        a {
+          color: var(--white-color);
+
+          text-decoration: none;
+          transition: color 0.3s;
+
+          &:hover {
+            color: var(--black-color);
+          }
+        }
+      }
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &__bottom {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid rgb(227, 224, 224);
+    padding-top: 1rem;
+   color: var( --white-color);
+
+  }
+}

@@ -1,0 +1,40 @@
+.category-filter {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+
+  .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #eee;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+
+    span {
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      border-color: #ccc;
+    }
+
+    &.active {
+      border-color: #4ade80;
+      background-color: #f0fdf4;
+    }
+  }
+}
