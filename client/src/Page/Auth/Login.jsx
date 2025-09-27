@@ -43,7 +43,7 @@ function Login() {
           {error && <p className="error">{error}</p>}
           <button type="submit">دخول</button>
           <p>
-            لديك حساب؟ <a href="/login">سجل دخولك</a>
+            لديك حساب؟ <a href="/register">سجل دخولك</a>
           </p>
         </form>
       </div>
@@ -52,3 +52,4 @@ function Login() {
 }
 
 export default Login;
+
