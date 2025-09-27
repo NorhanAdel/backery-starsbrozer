@@ -11,9 +11,9 @@
       flex: 1;
       img {
         width: 100%;
-        max-width: 450px;
+        max-width: 500px;
         border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
       }
     }
 
@@ -29,7 +29,7 @@
       .price {
         font-size: 22px;
         font-weight: bold;
-        color: #d35400;
+        color: #8b4513;
         margin-bottom: 15px;
       }
 
@@ -66,7 +66,7 @@
           .icon {
             margin-left: 10px;
             font-size: 18px;
-            color: #27ae60;
+            color: #a0522d;
           }
         }
       }
@@ -94,7 +94,7 @@
 
         .actions {
           .add-to-cart {
-            background: #27ae60;
+            background: #a0522d;
             color: #fff;
             border: none;
             padding: 10px 20px;
@@ -104,7 +104,7 @@
             transition: 0.3s;
 
             &:hover {
-              background: #219150;
+              background: #8b4513;
             }
           }
         }
@@ -119,19 +119,21 @@
       display: flex;
       gap: 30px;
       align-items: center;
+      flex-direction: row-reverse;
 
       .extra-image {
-        flex: 1;
+        flex: 2;
 
         img {
           width: 100%;
-          max-width: 400px;
+          max-width: 600px;
           border-radius: 12px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
       }
 
       .extra-text {
-        flex: 2;
+        flex: 1;
 
         h3 {
           font-size: 22px;
@@ -183,6 +185,10 @@
     .extra-details .extra-wrapper {
       flex-direction: column;
       text-align: center;
+
+      .extra-image {
+        max-width: 100% !important;
+      }
     }
   }
 }
